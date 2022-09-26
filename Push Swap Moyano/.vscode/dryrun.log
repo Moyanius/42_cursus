@@ -1,0 +1,24 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/System/Volumes/Data/sgoinfre/goinfre/Perso/jmoyano-/42 curso/Push Swap'
+ 
+gcc -Werror -Wall -Wextra -g   -c -o push_swap.o push_swap.c
+gcc -Werror -Wall -Wextra -g   -c -o main_push_swap.o main_push_swap.c
+gcc -Werror -Wall -Wextra -g   -c -o push_swap_validation.o push_swap_validation.c
+gcc -Werror -Wall -Wextra -g   -c -o push_swap_utils.o push_swap_utils.c
+gcc -Werror -Wall -Wextra -g   -c -o push_swap_utils2.o push_swap_utils2.c
+gcc -Werror -Wall -Wextra -g   -c -o push_swap_utils3.o push_swap_utils3.c
+gcc -Werror -Wall -Wextra -g   -c -o push_swap_utils4.o push_swap_utils4.c
+gcc -Werror -Wall -Wextra -g   -c -o push_swap_node.o push_swap_node.c
+gcc -Werror -Wall -Wextra -g   -c -o push_swap_order_push.o push_swap_order_push.c
+gcc -Werror -Wall -Wextra -g   -c -o push_swap_order_swap.o push_swap_order_swap.c
+gcc -Werror -Wall -Wextra -g   -c -o push_swap_order_rotate.o push_swap_order_rotate.c
+gcc -Werror -Wall -Wextra -g   -c -o push_swap_order_reverse_rotate.o push_swap_order_reverse_rotate.c
+gcc -Werror -Wall -Wextra -g   -c -o push_swap_order_three.o push_swap_order_three.c
+gcc -Werror -Wall -Wextra -g   -c -o push_swap_order_five.o push_swap_order_five.c
+gcc -Werror -Wall -Wextra -g   -c -o push_swap_order_100.o push_swap_order_100.c
+gcc -Werror -Wall -Wextra -g   -c -o push_swap_order_radix.o push_swap_order_radix.c
+gcc -Werror -Wall -Wextra -g   -c -o push_swap_errors.o push_swap_errors.c
+make -C ./Moyano_library
+gcc -Werror -Wall -Wextra -g push_swap.o main_push_swap.o push_swap_validation.o push_swap_utils.o push_swap_utils2.o push_swap_utils3.o push_swap_utils4.o push_swap_node.o push_swap_order_push.o push_swap_order_swap.o push_swap_order_rotate.o push_swap_order_reverse_rotate.o push_swap_order_three.o push_swap_order_five.o push_swap_order_100.o push_swap_order_radix.o push_swap_errors.o -I ./Moyano_library -L ./Moyano_library -l ft -o push_swap
+make: Leaving directory `/System/Volumes/Data/sgoinfre/goinfre/Perso/jmoyano-/42 curso/Push Swap'
+ 

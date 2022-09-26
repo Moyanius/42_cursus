@@ -1,0 +1,15 @@
+En la parte obligatoria se te permite utilizar las siguientes funciones:
+◦ write
+◦ ft_printf y cualquier equivalente que TÚ hayas programado
+◦ signal
+◦ sigemptyset
+◦ sigaddset
+◦ sigaction
+◦ kill
+◦ getpid
+◦ malloc
+◦ free
+◦ pause
+◦ sleep
+◦ usleep
+◦ exit

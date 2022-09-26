@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/jmoyano-/Desktop/42 curso/Printf'
+make -C ./Libft
+cp Libft/libft.a libftprintf.a
+gcc -Wall -Wextra -Werror -c ft_printf.c ft_printf_utils.c -I./
+ar rcs libftprintf.a ft_printf.o ft_printf_utils.o
+make: Leaving directory `/Users/jmoyano-/Desktop/42 curso/Printf'
+ 

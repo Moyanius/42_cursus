@@ -1,0 +1,19 @@
+https://parzibyte.me/blog/2018/11/12/pila-dinamica-en-c/
+https://www.youtube.com/watch?v=7JTUaKIe7A8
+https://www.youtube.com/watch?v=VOpjAHCee7c&list=PL9IEJIKnBJjFiudyP6wSXmykrn67Ykqib    
+
+VIDEO -->https://www.youtube.com/watch?v=ABZIs-lMSlA  
+
+PDF ---->  https://cdn.intra.42.fr/pdf/pdf/50372/es.subject.pdf 
+
+
+https://www.youtube.com/watch?v=7KW59UO55TQ
+
+Explicacion Ordenacion --> https://medium.com/@jamierobertdawson/push-swap-the-least-amount-of-moves-with-two-stacks-d1e76a71789a
+
+
+PENDIENTE
+-comprobar enteros
+
+
+python3 -m c_formatter_42 < Desktop/jmoyano-/42\ curso/Push\ Swap/push_swap_order_five.c > formateado.c

@@ -1,0 +1,8 @@
+{
+    "version": "2.0.0",
+    "tasks": [{
+        "label": "compile",
+        "command": "make; gcc ft_printf.c main.c ft_printf_utils.c -L. -lftprintf -g -o prueba",
+        "type": "shell"
+    }]
+}
